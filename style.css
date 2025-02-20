@@ -66,7 +66,7 @@ nav{
 
  .battle-col{
  	display: block;
- 	width: 100%;
+ 	width: 300px;
  	padding: 15px;
  	border:1px solid #ccc ;
  	border-radius: 5px;
@@ -83,3 +83,14 @@ nav{
 	color: var(--black);
 	text-transform: uppercase;
 }
+
+@media screen and (max-width:1200px) {
+	.container{
+		width: 100%;
+		padding: 0 20px;
+	}
+	.profile-row{
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+} 
