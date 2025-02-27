@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Battle 11</title>
+	<link rel="stylesheet"  href="main.css">
+	<style>
+		.col{
+			border: 0;
+      		background: #3F4869;
+		}
+		.col-1{
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			background: #F4DA64;
+			position: relative;
+			left: 30px;
+		}
+		.col-2{
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			background:#E25C57 ;
+			position: relative;
+			right: 20px;
+
+		}
+		.col-3{
+			width: 150px;
+			height: 75px;
+			background: #F4DA64;
+			position: absolute;
+			bottom: 0;
+			z-index: 2;
+			border-radius: 0 0 75px 75px ;
+		}
+	</style>
+</head>
+<body>
+<div class="col main-flex">
+	<div class="col-1">
+		<div class="col-3"></div>
+	</div>
+	<div class="col-2"></div>
+</div>
+</body>
+</html>
